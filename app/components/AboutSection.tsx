@@ -10,7 +10,8 @@ import {
   Zap,
   Palette,
   Camera,
-  Code
+  Code,
+  BookOpen
 } from 'lucide-react'
 
 export default function AboutSection() {
