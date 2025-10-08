@@ -205,7 +205,7 @@ export default function WallpaperGallery() {
               and exclusive content not available anywhere else.
             </p>
             <a
-              href="https://discord.gg/your-discord-invite"
+              href="https://discord.gg/Bdjpv8KJPB"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-button inline-flex items-center"
@@ -254,7 +254,7 @@ export default function WallpaperGallery() {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-6">
-                  This stunning AI-generated wallpaper combines cutting-edge technology with 
+                  This stunning digital wallpaper combines cutting-edge technology with 
                   artistic vision to create a truly unique piece of digital art.
                 </p>
                 <div className="flex gap-4">
@@ -262,7 +262,7 @@ export default function WallpaperGallery() {
                     Download HD
                   </button>
                   <a
-                    href="https://discord.gg/your-discord-invite"
+                    href="https://discord.gg/Bdjpv8KJPB"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="neon-button flex-1 text-center"

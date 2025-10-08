@@ -57,7 +57,7 @@ export default function Navigation() {
           {/* Discord Button */}
           <div className="hidden md:block">
             <a
-              href="https://discord.gg/your-discord-invite"
+              href="https://discord.gg/Bdjpv8KJPB"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-button"
@@ -98,7 +98,7 @@ export default function Navigation() {
               </Link>
             ))}
             <a
-              href="https://discord.gg/your-discord-invite"
+              href="https://discord.gg/Bdjpv8KJPB"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-button block w-full text-center mt-4"

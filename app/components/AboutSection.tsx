@@ -21,17 +21,17 @@ export default function AboutSection() {
   })
 
   const tools = [
-    { name: 'ChatGPT', icon: <MessageCircle className="w-6 h-6" />, description: 'Prompt Engineering' },
-    { name: 'Leonardo AI', icon: <Palette className="w-6 h-6" />, description: 'Image Generation' },
-    { name: 'Whisk', icon: <Camera className="w-6 h-6" />, description: 'AI Video Creation' },
-    { name: 'Custom Scripts', icon: <Code className="w-6 h-6" />, description: 'Automation Tools' },
+    { name: 'ChatGPT', icon: <MessageCircle className="w-6 h-6" />, description: 'Prompt Engineering', price: '$0.99' },
+    { name: 'Leonardo AI', icon: <Palette className="w-6 h-6" />, description: 'Image Generation', price: '$0.99' },
+    { name: 'Whisk', icon: <Camera className="w-6 h-6" />, description: 'AI Video Creation', price: '$0.99' },
+    { name: 'Custom Scripts', icon: <Code className="w-6 h-6" />, description: 'Automation Tools', price: '$0.99' },
   ]
 
   const socialLinks = [
     {
       name: 'Discord',
       icon: <MessageCircle className="w-6 h-6" />,
-      url: 'https://discord.gg/your-discord-invite',
+      url: 'https://discord.gg/Bdjpv8KJPB',
       color: 'from-indigo-500 to-purple-600',
       description: 'Join our community'
     },
@@ -91,19 +91,19 @@ export default function AboutSection() {
               </h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  It all started with a simple curiosity about artificial intelligence and its 
-                  potential to create art. What began as weekend experiments with AI tools 
+                  It all started with a simple curiosity about digital art and its 
+                  potential to create stunning visuals. What began as weekend experiments with creative tools 
                   quickly evolved into a passion for pushing the boundaries of digital creativity.
                 </p>
                 <p>
-                  I discovered that AI wasn't just a tool—it was a collaborator. By combining 
-                  human creativity with machine intelligence, I could create wallpapers that 
+                  I discovered that technology wasn't just a tool—it was a collaborator. By combining 
+                  human creativity with digital intelligence, I could create wallpapers that 
                   captured emotions, told stories, and transported viewers to otherworldly realms.
                 </p>
                 <p>
                   Today, I'm dedicated to sharing this knowledge with others. Through tutorials, 
                   guides, and community building, I help aspiring creators unlock their own 
-                  potential in the world of AI art.
+                  potential in the world of digital art.
                 </p>
               </div>
             </div>
@@ -126,18 +126,23 @@ export default function AboutSection() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
-                    className="flex items-center space-x-4 p-4 rounded-lg bg-dark-surface/50 hover:bg-dark-surface transition-colors duration-300"
+                    className="relative flex items-center space-x-4 p-4 rounded-lg bg-dark-surface/50 hover:bg-dark-surface transition-colors duration-300 group"
                   >
                     <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-neon-purple to-neon-blue rounded-lg flex items-center justify-center text-white">
                       {tool.icon}
                     </div>
-                    <div>
-                      <h4 className="text-lg font-semibold text-white">
+                    <div className="flex-1">
+                      <h4 className="text-lg font-semibold text-white blur-sm group-hover:blur-none transition-all duration-300">
                         {tool.name}
                       </h4>
-                      <p className="text-gray-400">
+                      <p className="text-gray-400 blur-sm group-hover:blur-none transition-all duration-300">
                         {tool.description}
                       </p>
+                    </div>
+                    <div className="flex-shrink-0">
+                      <span className="text-lg font-bold gradient-text">
+                        {tool.price}
+                      </span>
                     </div>
                   </motion.div>
                 ))}

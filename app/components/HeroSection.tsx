@@ -77,9 +77,9 @@ export default function HeroSection() {
         >
           <span className="gradient-text">Welcome to the</span>
           <br />
-          <span className="text-white">World of AI</span>
+          <span className="text-white">World of Digital</span>
           <br />
-          <span className="gradient-text">Creations</span>
+          <span className="gradient-text">Art</span>
         </motion.h1>
 
         {/* Subtext */}
@@ -87,7 +87,7 @@ export default function HeroSection() {
           className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
           variants={itemVariants}
         >
-          Explore my collection of stunning AI-generated wallpapers, discover my creative process, 
+          Explore my collection of stunning digital wallpapers, discover my creative process, 
           and join our exclusive community for premium content and tutorials.
         </motion.p>
 
@@ -111,7 +111,7 @@ export default function HeroSection() {
           </motion.a>
 
           <motion.a
-            href="https://discord.gg/your-discord-invite"
+            href="https://discord.gg/Bdjpv8KJPB"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center px-8 py-4 border-2 border-neon-purple text-neon-purple font-semibold rounded-lg overflow-hidden transition-all duration-300 hover:bg-neon-purple hover:text-white hover:scale-105"

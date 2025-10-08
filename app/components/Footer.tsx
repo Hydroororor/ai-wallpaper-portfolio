@@ -71,7 +71,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2">
               <a 
-                href="https://discord.gg/your-discord-invite" 
+                href="https://discord.gg/Bdjpv8KJPB" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-gray-400 hover:text-white transition-colors duration-300"

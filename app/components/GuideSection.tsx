@@ -51,11 +51,11 @@ export default function GuideSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">How to Make</span> Custom AI Wallpapers
+            <span className="gradient-text">How to Make</span> Custom Wallpapers
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Learn the secrets behind creating stunning AI-generated wallpapers. 
-            From prompt engineering to final touches, master the art of AI creativity.
+            Learn the secrets behind creating stunning digital wallpapers. 
+            From creative techniques to final touches, master the art of digital creativity.
           </p>
         </motion.div>
 
@@ -68,11 +68,11 @@ export default function GuideSection() {
           >
             <div className="glass rounded-2xl p-8">
               <h3 className="text-3xl font-bold mb-6 gradient-text">
-                Master AI Art Creation
+                Master Digital Art Creation
               </h3>
               <p className="text-gray-300 mb-8 text-lg leading-relaxed">
                 This comprehensive guide will teach you everything you need to know about creating 
-                professional-quality AI wallpapers. Whether you're a beginner or looking to refine 
+                professional-quality digital wallpapers. Whether you're a beginner or looking to refine 
                 your skills, this guide has something for everyone.
               </p>
 
@@ -105,7 +105,7 @@ export default function GuideSection() {
               <div className="border-t border-gray-700 pt-6">
                 <div className="flex items-center justify-between mb-6">
                   <div>
-                    <span className="text-3xl font-bold gradient-text">$29</span>
+                    <span className="text-3xl font-bold gradient-text">$9.99</span>
                     <span className="text-gray-400 ml-2">One-time purchase</span>
                   </div>
                   <div className="flex items-center text-yellow-400">
